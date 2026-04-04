@@ -91,7 +91,7 @@ const AuthContext = createContext();
 
 // Axios instance bana lo (same as API service)
 const api = axios.create({
-  baseURL: 'http://localhost:3000/api', // apna backend URL daalna
+  baseURL: ' https://school-backend-o571.onrender.com/api', // apna backend URL daalna
   withCredentials: true, // cookie ke liye IMPORTANT
 });
 
