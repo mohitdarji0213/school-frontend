@@ -233,7 +233,7 @@ const Home = () => {
       </section>
 
       {/* ====== NOTICE BOARD ====== */}
-      <section className="notices-section section-pad" style={{ background: 'white' }}>
+      <section className="notices-section section-pad column-on-tablat" style={{ background: 'white' }}>
         <div className="container">
           <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 48, alignItems: 'start' }}>
             {/* Notices */}
