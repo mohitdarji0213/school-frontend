@@ -225,7 +225,7 @@ input, textarea, select { outline: none; font-family: inherit; }
 .column-on-tablat{
   display:flex;
   gap:20px;
-  flex-direction:column:
+  flex-direction:column;
 }
 }
 /* Responsive */
