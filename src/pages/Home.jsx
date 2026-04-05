@@ -235,7 +235,7 @@ const Home = () => {
       {/* ====== NOTICE BOARD ====== */}
       <section className="notices-section section-pad " style={{ background: 'white' }}>
         <div className="container">
-          <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 48, alignItems: 'start' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: '1fr', gap: 48, alignItems: 'start' }}>
             {/* Notices */}
             <div>
               <div className="badge badge-navy" style={{ marginBottom: 16 }}>Latest Updates</div>
