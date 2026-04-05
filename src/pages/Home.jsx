@@ -269,7 +269,7 @@ const Home = () => {
               <div className="badge badge-gold" style={{ marginBottom: 16 }}>Quick Access</div>
               <h2 className="section-title" style={{ marginBottom: 8 }}>Important Links</h2>
               <div className="gold-line" style={{ margin: '12px 0 28px' }} />
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
+              <div style={{ display: 'grid', gridTemplateColumns: '1fr ', gap: 12 }}>
                 {[
                   { icon: <FaGraduationCap />, label: 'Admissions', path: '/admissions', color: '#1a5276' },
                   { icon: <FaClipboardList />, label: 'Results', path: '/academics/results', color: '#1e8449' },
