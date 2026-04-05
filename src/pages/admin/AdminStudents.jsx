@@ -34,6 +34,7 @@ const AdminStudents = () => {
     try {
       const { data } = await API.get('/students');
       setStudents(data);
+      console.log(data)
     } catch { toast.error('Failed to load students'); }
     finally { setLoading(false); }
   };
